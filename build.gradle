@@ -149,21 +149,21 @@ publishing {
     publications {
         release(MavenPublication) {
             groupId = "cn.uss-shenzhou"
-            artifactId = "hotbaaaar"
+            artifactId = "nowaterupdate"
 
             artifact jar
             pom {
                 name = mod_name
                 description = mod_description
-                url = 'https://github.com/teaconmc/HotBaaaar'
+                url = 'https://github.com/teaconmc/NoWaterUpdate'
                 issueManagement {
                     system = 'GitHub Issues'
-                    url = 'https://github.com/teaconmc/HotBaaaar'
+                    url = 'https://github.com/teaconmc/NoWaterUpdate'
                 }
                 scm {
-                    url = 'https://github.com/teaconmc/HotBaaaar'
-                    connection = 'scm:git:git://github.com/teaconmc/HotBaaaar.git'
-                    developerConnection = 'scm:git:git@github.com:teaconmc/HotBaaaar.git'
+                    url = 'https://github.com/teaconmc/NoWaterUpdate'
+                    connection = 'scm:git:git://github.com/teaconmc/NoWaterUpdate.git'
+                    developerConnection = 'scm:git:git@github.com:teaconmc/NoWaterUpdate.git'
                 }
             }
         }
